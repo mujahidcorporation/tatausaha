@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tata Usaha SDIT DAARUL HASANAH</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+ <header>
+    <h1>Data Pembelajaran</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="berita.html">Berita</a>
+      <a href="datapembelajaran.html">Data Pembelajaran</a>
+      <a href="datasiswa.html">Data Siswa</a>
+      <a href="dataguru.html">Data Guru</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+<body>
+  <main>
+    <ul id="datapembelajaran"></ul>
+  </main>
+  <footer>&copy; 2025 Tata Usaha SDIT DAARUL HASANAH</footer>
+  <script src="js/script.js"></script>
+<script>
+  loaddatapembelajaran('data/datapembelajaran.json', 'datapembelajaran');
+</script>
+
+</body>
+</html>
